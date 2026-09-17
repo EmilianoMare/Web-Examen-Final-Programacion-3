@@ -1,4 +1,5 @@
-﻿// Importamos las herramientas necesarias de ASP.NET Core MVC.
+#region Usings
+// Importamos las herramientas necesarias de ASP.NET Core MVC.
 // Nos permite utilizar Controller, IActionResult, HttpPost, HttpGet, etc.
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
@@ -9,7 +10,7 @@ using SistemaWeb.DTOs;
 // Importamos los Services.
 // El Controller utilizará SaleServices para ejecutar la lógica de las ventas.
 using SistemaWeb.Services;
-
+#endregion
 
 // Namespace donde se encuentra nuestro Controller.
 namespace SistemaWeb.Controllers
@@ -26,6 +27,7 @@ namespace SistemaWeb.Controllers
     // _service será utilizado para llamar a los métodos del Service.
     public class SaleController(SaleServices _service, ILogger<SaleController> _logger) : Controller
     {
+        #region --- VISTAS RAZOR ---
 
         // Método que devuelve la vista para agregar o editar una venta.
         //
@@ -36,7 +38,6 @@ namespace SistemaWeb.Controllers
             return View();
         }
 
-
         // Método que devuelve la vista principal de las ventas.
         public IActionResult Index()
         {
@@ -44,115 +45,9 @@ namespace SistemaWeb.Controllers
             return View();
         }
 
+        #endregion
 
-        // Indica que este método responde a peticiones HTTP POST.
-        //
-        // POST normalmente se utiliza para CREAR nuevos registros.
-        [HttpPost]
-
-        // Método encargado de crear una nueva venta.
-        //
-        // SaleDTO request contiene los datos enviados desde el cliente.
-        //
-        // [FromBody] indica que ASP.NET Core debe obtener esos datos
-        // desde el cuerpo (body) de la petición HTTP.
-        public IActionResult Create([FromBody] SaleDTO request)
-        {
-            try
-            {
-                // Enviamos los datos recibidos al Service.
-                //
-                // El Controller NO se encarga de crear directamente
-                // la venta en la base de datos.
-                //
-                // El Service contiene la lógica necesaria para hacerlo.
-                _service.Create(request);
-
-                // Si todo salió correctamente, devolvemos HTTP 200 (OK)
-                // junto con un mensaje.
-                return Ok(new { message = "Gasto guardado correctamente." });
-            }
-            catch (ValidationException ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error creating sale");
-                return StatusCode(500, new { message = "No se pudo guardar el gasto." });
-            }
-        }
-
-
-        // Indica que este método responde a peticiones HTTP PUT.
-        //
-        // PUT normalmente se utiliza para MODIFICAR un registro existente.
-        [HttpPut]
-
-        // Método encargado de modificar una venta.
-        //
-        // Recibimos los nuevos datos de la venta mediante SaleDTO.
-        public IActionResult Edit([FromBody] SaleDTO request)
-        {
-            try
-            {
-                // Enviamos los datos al Service para que realice
-                // la modificación.
-                _service.Edit(request);
-
-                // Si la modificación fue correcta,
-                // devolvemos HTTP 200 (OK).
-                return Ok(new { message = "Gasto modificado correctamente." });
-            }
-            catch (ValidationException ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error editing sale");
-                return StatusCode(500, new { message = "No se pudo modificar el gasto." });
-            }
-        }
-
-
-        // Indica que este método responde a peticiones HTTP DELETE.
-        //
-        // DELETE normalmente se utiliza para ELIMINAR registros.
-        [HttpDelete]
-
-        // Método encargado de eliminar una venta.
-        //
-        // [FromQuery] indica que SaleId viene desde la URL
-        // como parámetro de consulta.
-        //
-        // Ejemplo:
-        // /Sale/Delete?SaleId=5
-        public IActionResult Delete([FromQuery] int SaleId)
-        {
-            try
-            {
-                // Enviamos el ID de la venta al Service.
-                //
-                // El Service será el encargado de realizar
-                // la eliminación.
-                _service.Delete(SaleId);
-
-                // Si todo salió correctamente,
-                // devolvemos HTTP 200.
-                return Ok(new { message = "Gasto eliminado correctamente." });
-            }
-            catch (ValidationException ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error deleting sale {SaleId}", SaleId);
-                return StatusCode(500, new { message = "No se pudo eliminar el gasto." });
-            }
-        }
-
+        #region --- MÉTODOS HTTP GET (Lectura / Consultas) ---
 
         // Indica que este método responde a peticiones HTTP GET.
         //
@@ -204,7 +99,6 @@ namespace SistemaWeb.Controllers
             }
         }
 
-
         // Indica que este método responde a peticiones HTTP GET.
         [HttpGet]
 
@@ -234,5 +128,125 @@ namespace SistemaWeb.Controllers
                 return StatusCode(500, new { message = "No se pudo cargar la venta." });
             }
         }
+
+        #endregion
+
+        #region --- MÉTODOS HTTP POST (Creación) ---
+
+        // Indica que este método responde a peticiones HTTP POST.
+        //
+        // POST normalmente se utiliza para CREAR nuevos registros.
+        [HttpPost]
+
+        // Método encargado de crear una nueva venta.
+        //
+        // SaleDTO request contiene los datos enviados desde el cliente.
+        //
+        // [FromBody] indica que ASP.NET Core debe obtener esos datos
+        // desde el cuerpo (body) de la petición HTTP.
+        public IActionResult Create([FromBody] SaleDTO request)
+        {
+            try
+            {
+                // Enviamos los datos recibidos al Service.
+                //
+                // El Controller NO se encarga de crear directamente
+                // la venta en la base de datos.
+                //
+                // El Service contiene la lógica necesaria para hacerlo.
+                _service.Create(request);
+
+                // Si todo salió correctamente, devolvemos HTTP 200 (OK)
+                // junto con un mensaje.
+                return Ok(new { message = "Gasto guardado correctamente." });
+            }
+            catch (ValidationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error creating sale");
+                return StatusCode(500, new { message = "No se pudo guardar el gasto." });
+            }
+        }
+
+        #endregion
+
+        #region --- MÉTODOS HTTP PUT (Edición / Actualización) ---
+
+        // Indica que este método responde a peticiones HTTP PUT.
+        //
+        // PUT normalmente se utiliza para MODIFICAR un registro existente.
+        [HttpPut]
+
+        // Método encargado de modificar una venta.
+        //
+        // Recibimos los nuevos datos de la venta mediante SaleDTO.
+        public IActionResult Edit([FromBody] SaleDTO request)
+        {
+            try
+            {
+                // Enviamos los datos al Service para que realice
+                // la modificación.
+                _service.Edit(request);
+
+                // Si la modificación fue correcta,
+                // devolvemos HTTP 200 (OK).
+                return Ok(new { message = "Gasto modificado correctamente." });
+            }
+            catch (ValidationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error editing sale");
+                return StatusCode(500, new { message = "No se pudo modificar el gasto." });
+            }
+        }
+
+        #endregion
+
+        #region --- MÉTODOS HTTP DELETE (Eliminación) ---
+
+        // Indica que este método responde a peticiones HTTP DELETE.
+        //
+        // DELETE normalmente se utiliza para ELIMINAR registros.
+        [HttpDelete]
+
+        // Método encargado de eliminar una venta.
+        //
+        // [FromQuery] indica que SaleId viene desde la URL
+        // como parámetro de consulta.
+        //
+        // Ejemplo:
+        // /Sale/Delete?SaleId=5
+        public IActionResult Delete([FromQuery] int SaleId)
+        {
+            try
+            {
+                // Enviamos el ID de la venta al Service.
+                //
+                // El Service será el encargado de realizar
+                // la eliminación.
+                _service.Delete(SaleId);
+
+                // Si todo salió correctamente,
+                // devolvemos HTTP 200.
+                return Ok(new { message = "Gasto eliminado correctamente." });
+            }
+            catch (ValidationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error deleting sale {SaleId}", SaleId);
+                return StatusCode(500, new { message = "No se pudo eliminar el gasto." });
+            }
+        }
+
+        #endregion
     }
 }
