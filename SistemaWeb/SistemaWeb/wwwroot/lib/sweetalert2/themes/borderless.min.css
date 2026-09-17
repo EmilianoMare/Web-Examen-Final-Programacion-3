@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/sweetalert2@11.26.23/themes/borderless.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+[data-swal2-theme=borderless]{--swal2-backdrop:rgba(54, 70, 93, 0.99);--swal2-background:transparent;--swal2-color:white;--swal2-show-animation:opacity-show 0.3s;--swal2-hide-animation:opacity-hide 0.1s;--swal2-progress-step-background:color-mix(in srgb, var(--swal2-backdrop), white 30%);--swal2-validation-message-background:transparent;--swal2-validation-message-color:white;--swal2-footer-border-color:rgba(255, 255, 255, 0.2);--swal2-close-button-position:fixed;--swal2-close-button-inset:0;--swal2-close-button-font-size:3em;--swal2-close-button-color:white}@keyframes opacity-show{0%{opacity:0}100%{opacity:1}}@keyframes opacity-hide{100%{opacity:0}}
+/*# sourceMappingURL=/sm/be4b698c51d63327c0b483b2b073b5f60f0a1a2c4326233c078b8714234be433.map */

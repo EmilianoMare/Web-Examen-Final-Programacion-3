@@ -1,0 +1,941 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SistemaWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.esm.js",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.js",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.min.js",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\dist\\js\\avalynx-loader.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\license",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\package.json",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\readme.de.md",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\readme.de.md"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\avalynx-loader\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\avalynx-loader\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-buttons-dt\\css\\buttons.datatables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-buttons-dt\\css\\buttons.datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-buttons-dt\\js\\buttons.datatables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-buttons-dt\\js\\buttons.datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-buttons\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-buttons\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-buttons\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-buttons\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-buttons\\js\\datatables.buttons.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-buttons\\js\\datatables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-dt\\css\\datatables.datatables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-dt\\css\\datatables.datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-dt\\license.txt",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-dt\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-responsive-dt\\css\\responsive.datatables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-responsive-dt\\css\\responsive.datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-responsive-dt\\js\\responsive.datatables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-responsive-dt\\js\\responsive.datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net-responsive\\js\\datatables.responsive.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net-responsive\\js\\datatables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net\\js\\datatables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net\\js\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\datatableJs\\datatables.net\\license.txt",
+      "PackagePath": "staticwebassets\\lib\\datatableJs\\datatables.net\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.all.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.esm.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.esm.all.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.esm.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.esm.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.esm.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\license",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\package.json",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\buttons-handlers.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\buttons-handlers.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\buttons-handlers.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\buttons-handlers.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\constants.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\constants.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\constants.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\constants.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\globalstate.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\globalstate.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\globalstate.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\globalstate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\_destroy.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\_destroy.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\_destroy.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\_destroy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\close.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\close.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\close.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\close.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\enable-disable-elements.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\enable-disable-elements.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\enable-disable-elements.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\enable-disable-elements.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\getinput.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\getinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\getinput.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\getinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\hideloading.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\hideloading.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\hideloading.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\hideloading.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\update.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\update.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\update.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\update.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\validation-message.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\validation-message.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\instancemethods\\validation-message.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\instancemethods\\validation-message.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\keydown-handler.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\keydown-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\keydown-handler.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\keydown-handler.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\popup-click-handler.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\popup-click-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\popup-click-handler.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\popup-click-handler.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\privatemethods.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privatemethods.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\privatemethods.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privatemethods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\privateprops.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privateprops.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\privateprops.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\privateprops.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\argstoparams.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\argstoparams.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\argstoparams.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\argstoparams.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\bindclickhandler.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\bindclickhandler.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\bindclickhandler.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\bindclickhandler.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\dom.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\dom.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\dom.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\dom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\eventhandlers.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\eventhandlers.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\eventhandlers.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\eventhandlers.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\fire.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\fire.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\fire.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\fire.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\mixin.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\mixin.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\mixin.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\mixin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\showloading.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\showloading.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\showloading.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\showloading.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\timer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\staticmethods\\timer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\staticmethods\\timer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\sweetalert.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\sweetalert2.scss",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\sweetalert2.scss"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\types.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\types.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\types.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\types.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\aria.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\aria.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\aria.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\aria.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\classes.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\classes.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\classes.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\classes.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\defaultinputvalidators.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\defaultinputvalidators.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\defaultinputvalidators.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\defaultinputvalidators.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dismissreason.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dismissreason.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dismissreason.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dismissreason.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\domutils.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\domutils.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\domutils.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\domutils.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\getters.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\getters.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\getters.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\getters.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\index.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\index.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\index.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\init.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\init.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\init.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\init.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\inpututils.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\inpututils.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\inpututils.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\inpututils.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\parsehtmltocontainer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\parsehtmltocontainer.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\parsehtmltocontainer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\parsehtmltocontainer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\render.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderactions.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderactions.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderactions.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderactions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderclosebutton.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderclosebutton.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderclosebutton.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderclosebutton.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontainer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontainer.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontainer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontainer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontent.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontent.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontent.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendercontent.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderfooter.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderfooter.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderfooter.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderfooter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendericon.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendericon.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendericon.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendericon.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderimage.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderimage.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderimage.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderimage.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderinput.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderinput.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderpopup.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderpopup.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderpopup.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderpopup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderprogresssteps.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderprogresssteps.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderprogresssteps.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\renderprogresssteps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendertitle.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendertitle.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendertitle.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\dom\\renderers\\rendertitle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\draggable.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\draggable.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\draggable.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\draggable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\eventemitter.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\eventemitter.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\eventemitter.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\eventemitter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\gettemplateparams.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\gettemplateparams.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\gettemplateparams.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\gettemplateparams.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\iosfix.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\iosfix.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\iosfix.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\iosfix.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\isnodeenv.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\isnodeenv.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\isnodeenv.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\isnodeenv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\openpopup.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\openpopup.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\openpopup.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\openpopup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\params.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\params.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\params.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\params.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\scrollbar.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\scrollbar.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\setparameters.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\setparameters.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\setparameters.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\setparameters.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\timer.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\timer.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\timer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\src\\utils\\utils.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\src\\utils\\utils.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\bootstrap-5.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\bootstrap-5.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\bootstrap-5.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\bootstrap-5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\borderless.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\borderless.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\borderless.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\borderless.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\bulma.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\bulma.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\bulma.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\bulma.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\embed-iframe.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\embed-iframe.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\embed-iframe.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\embed-iframe.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\material-ui.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\material-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\material-ui.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\material-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\minimal.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\minimal.css"
+    },
+    {
+      "Id": "C:\\Users\\Emiliano\\Desktop\\Web Examen Final\\SistemaWeb\\SistemaWeb\\wwwroot\\lib\\sweetalert2\\themes\\minimal.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\themes\\minimal.min.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemaWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SistemaWeb.props",
+      "PackagePath": "build\\SistemaWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SistemaWeb.props",
+      "PackagePath": "buildMultiTargeting\\SistemaWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SistemaWeb.props",
+      "PackagePath": "buildTransitive\\SistemaWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

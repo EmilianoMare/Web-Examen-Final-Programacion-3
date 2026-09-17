@@ -1,0 +1,168 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="row justify-content-between align-items-center mt-4">
+	<div class="col-6">
+		<h4>Compras y gastos</h4>
+	</div>
+	<div class="col-6 text-end">
+		<a href="/Sale/AddEdit" class="btn btn-success">Registrar gasto</a>
+	</div>
+</div>
+
+<div class="row g-3 mb-4">
+	<div class="col-md-4">
+		<label for="monthFilter" class="form-label">Mes a consultar</label>
+		<input type="month" id="monthFilter" class="form-control" />
+	</div>
+	<div class="col-md-4">
+		<div class="card h-100 border-success">
+			<div class="card-body">
+				<div class="text-muted">Total gastado en el mes</div>
+				<div id="monthlyTotal" class="fs-3 fw-bold text-success">$ 0.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="card my-4">
+	<div class="card-body">
+		<table id="tbData" class="table table-striped">
+			<thead></thead>
+			<tbody></tbody>
+		</table>
+	</div>
+</div>
+
+@section Scripts {
+	<script>
+		//#region 1. Variables Globales e Inicialización de DataTable
+		let tbSales;
+		const monthFilter = document.getElementById("monthFilter");
+		const monthlyTotal = document.getElementById("monthlyTotal");
+
+		window.addEventListener("DOMContentLoaded", event => {
+			const currentDate = new Date();
+			monthFilter.value = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, "0")}`;
+			// Configuración y renderizado de la tabla dinámica con DataTables
+			tbSales = $("#tbData").DataTable({
+				"ajax": {
+					"url": "/Sale/GetAll",
+					"type": "GET",
+					"data": data => { data.month = monthFilter.value; },
+					"datatype": "json",
+					"dataSrc": ""
+				},
+				"processing": true,
+				"responsive": false,
+				"language": {
+					"processing": "Procesando...",
+					"search": "Buscar:",
+					"lengthMenu": "Mostrar _MENU_ registros",
+					"info": "Mostrando del _START_ al _END_ de _TOTAL_ registros",
+					"infoEmpty": "Mostrando 0 registros",
+					"infoFiltered": "(filtrado de _MAX_ registros)",
+					"zeroRecords": "No se encontraron compras ni gastos",
+					"emptyTable": "No hay compras ni gastos disponibles",
+					"paginate": {
+						"first": "Primero",
+						"previous": "Anterior",
+						"next": "Siguiente",
+						"last": "Último"
+					},
+					"aria": {
+						"sortAscending": ": activar para ordenar de forma ascendente",
+						"sortDescending": ": activar para ordenar de forma descendente"
+					},
+					"buttons": {
+						"pageLength": "Mostrar registros"
+					}
+				},
+				"columns": [
+					{ title: "Fecha", data: "saleDate" },
+					{ title: "Comercio o beneficiario", data: "customerName" },
+					{ title: "Conceptos", data: "productNames", defaultContent: "" },
+					{ title: "Importe", data: "totalAmount", render: (data) => { return '$ ' + data.toFixed(2) } },
+					{
+						title: "Acciones", data: "saleId", width: "150px", render: (data) => {
+							return `
+								<button type="button" class="btn btn-sm btn-primary me-1" data-id=${data}>Editar</button>
+								<button type="button" class="btn btn-sm btn-danger" data-id=${data}>Eliminar</button>
+							`
+						}
+					}
+				],
+				columnDefs: [
+					{ orderable: false, targets: [4] },
+					{ targets: '_all', className: "dt-left" }
+				],
+				layout: {
+					topStart: {
+						buttons: [
+							{ extend: "pageLength" }
+						]
+					}
+				}
+			})
+			loadMonthlyTotal();
+		})
+		//#endregion
+
+		monthFilter.addEventListener("change", () => {
+			tbSales.ajax.reload();
+			loadMonthlyTotal();
+		});
+
+		async function loadMonthlyTotal() {
+			try {
+				const response = await fetch(`/Sale/GetMonthlyTotal?month=${encodeURIComponent(monthFilter.value)}`);
+				const result = await response.json();
+				if (!response.ok) throw new Error(result.message || "No se pudo cargar el total mensual.");
+				monthlyTotal.textContent = '$ ' + Number(result.total).toFixed(2);
+			} catch (error) {
+				monthlyTotal.textContent = "$ 0.00";
+				Swal.fire({ text: error.message, icon: "error", timer: 1800, position: "top" });
+			}
+		}
+
+		//#region 2. Redirección para Editar Venta
+		$("#tbData").on("click", ".btn-primary", function () {
+			const saleId = $(this).attr("data-id")
+			window.location.href = `/Sale/AddEdit?saleId=${encodeURIComponent(saleId)}`
+		})
+		//#endregion
+
+		//#region 3. Confirmación y Eliminación de Venta
+		$("#tbData").on("click", ".btn-danger", function () {
+			const saleId = $(this).attr("data-id")
+
+			Swal.fire({
+				title: "¿Está seguro?",
+				text: "Esta acción no se puede deshacer.",
+				icon: "warning",
+				showCancelButton: true,
+				confirmButtonColor: "#3085d6",
+				cancelButtonColor: "#d33",
+				cancelButtonText: "Cancelar",
+				confirmButtonText: "Sí, eliminar"
+			}).then(async (swalResult) => {
+				if (swalResult.isConfirmed) {
+					try {
+						const response = await fetch(`/Sale/Delete?SaleId=${encodeURIComponent(saleId)}`, { method: 'DELETE' });
+						const deleteResult = await response.json();
+						if (!response.ok) {
+							throw new Error(deleteResult.message || "Error al eliminar la venta.");
+						}
+						tbSales.ajax.reload(null, false);
+					} catch (error) {
+						Swal.fire({ text: error.message, icon: "error", timer: 1500, position: "top" });
+					}
+				}
+			});
+		})
+		//#endregion
+	</script>
+}

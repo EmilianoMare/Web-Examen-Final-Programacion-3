@@ -1,0 +1,62 @@
+{
+  "version": "3.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "avalynx-loader@1.0.3",
+      "destination": "wwwroot/lib/avalynx-loader/"
+    },
+    {
+      "library": "sweetalert2@11.26.23",
+      "destination": "wwwroot/lib/sweetalert2/"
+    },
+    {
+      "library": "datatables.net@3.0.4",
+      "destination": "wwwroot/lib/datatableJs/datatables.net/",
+      "files": [
+        "js/dataTables.min.js",
+        "License.txt"
+      ]
+    },
+    {
+      "library": "datatables.net-dt@3.0.4",
+      "destination": "wwwroot/lib/datatableJs/datatables.net-dt/",
+      "files": [
+        "License.txt",
+        "css/dataTables.dataTables.min.css"
+      ]
+    },
+    {
+      "library": "datatables.net-responsive@4.0.3",
+      "destination": "wwwroot/lib/datatableJs/datatables.net-responsive/",
+      "files": [
+        "js/dataTables.responsive.min.js"
+      ]
+    },
+    {
+      "library": "datatables.net-responsive-dt@4.0.3",
+      "destination": "wwwroot/lib/datatableJs/datatables.net-responsive-dt/",
+      "files": [
+        "css/responsive.dataTables.min.css",
+        "js/responsive.dataTables.min.js"
+      ]
+    },
+    {
+      "library": "datatables.net-buttons@4.0.3",
+      "destination": "wwwroot/lib/datatableJs/datatables.net-buttons/",
+      "files": [
+        "js/buttons.print.min.js",
+        "js/buttons.html5.min.js",
+        "js/dataTables.buttons.min.js"
+      ]
+    },
+    {
+      "library": "datatables.net-buttons-dt@4.0.3",
+      "destination": "wwwroot/lib/datatableJs/datatables.net-buttons-dt/",
+      "files": [
+        "js/buttons.dataTables.min.js",
+        "css/buttons.dataTables.min.css"
+      ]
+    }
+  ]
+}
